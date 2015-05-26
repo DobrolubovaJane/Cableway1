@@ -5,6 +5,7 @@
  */
 package sampleserver;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Calendar;
 import java.util.Date;
@@ -21,7 +22,7 @@ public class Customer {
     Date lastDate;
     
     
-    public Customer(String id) throws SQLException
+    public Customer(String id) throws SQLException, IOException
     {
         
          try{
